@@ -233,24 +233,12 @@ $simditor-button-height: 40px;
           }
 
           &.toolbar-item-color {
-            font-size: 14px;
+            font-size: 18px;
             position: relative;
 
             span:before {
               position: relative;
               top: -2px;
-            }
-
-            &:after {
-              content: '';
-              display: block;
-              width: 14px;
-              height: 4px;
-              background: #cccccc;
-              position: absolute;
-              top: 26px;
-              left: 50%;
-              margin: 0 0 0 -7px;
             }
 
             &:hover:after {
@@ -274,6 +262,9 @@ $simditor-button-height: 40px;
               font-size: 100px;
               cursor: pointer;
             }
+          }
+          &.toolbar-item-source {
+            font-size: 25px;
           }
         }
 

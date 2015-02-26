@@ -3,7 +3,7 @@ class SourceButton extends Button
 
   name: 'source'
 
-  icon: 'html5'
+  icon: 'edit-html'
 
   needFocus: false
 
